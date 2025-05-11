@@ -4,6 +4,7 @@ cachetools==5.5.2
 certifi==2025.4.26
 charset-normalizer==3.4.2
 Django==5.2.1
+django-cors-headers==4.7.0
 djangorestframework==3.16.0
 drf-yasg==1.21.10
 google-ai-generativelanguage==0.6.15
