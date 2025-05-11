@@ -36,7 +36,7 @@ class DishAnalysisView(generics.GenericAPIView):
             )
 
     def analyze_dish_with_gemini(self, image_file):
-        genai.configure(api_key=settings.GEMINI_API_KEY)
+        genai.configure(api_key=settings.GOOGLE_API_KEY)
 
         image_bytes = BytesIO(image_file.read())
         image = Image.open(image_bytes)
